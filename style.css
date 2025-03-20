@@ -98,7 +98,9 @@ p{
 .image_at{
     margin: 2.5%;
     width: 95%;
+    height: 300px;
     margin-bottom: 5%;
+    object-fit: cover;
 }
 .btn{
     color: black;
