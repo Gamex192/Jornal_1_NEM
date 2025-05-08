@@ -2,11 +2,36 @@
 <html>
     <head>
         <title>Jornal do 1° NEM</title>
+        <link rel="stylesheet" href="navbar_style.css">
         <link rel="stylesheet" type="text/css" href="index_style.css">
+
     </head>
     <body>
-        <header class="titulao">
-            <a href="#"><h1>Jornal do 1° NEM</h1></a>    
+        <header id="cabecalho">
+            <ul class="computer">
+                <li><a href="trabalho1.html" class="left">Linguagens</a></li>
+                <li><a href="#" class="left">N. Linguagens</a></li>
+            </ul>
+            <Button class="btnmenu" id="myButton">
+                <div class="menu">
+               
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                
+                </div>
+            </Button>
+            <a href="#" class="titulo"><h1>Jornal do 1° NEM<h1></h1></a>
+            <ul class="computer">
+                <li><a href="#" class="left">Proj. de vida</a></li>
+                <li><a href="#" class="left">Atividades</a></li>
+            </ul>  
+            <ul class="vertical">
+                <li><a href="trabalho1.html" class="left">Linguagens</a></li>
+                <li><a href="#" class="left">N. Linguagens</a></li>
+                <li><a href="#" class="left">Proj. de vida</a></li>
+                <li><a href="#" class="left">Atividades</a></li>
+            </ul>
         </header>
      <main>
          <section>
@@ -107,5 +132,18 @@
         <footer>
             <p>&copy; 2025 Quimera's Company. Todos os direitos reservados.</p>
         </footer>
+        <script>
+            
+            document.getElementById('myButton').onclick = function(){menuOpener()}
+            
+            function menuOpener(){
+                if (!document.querySelector(".vertical").classList.contains("ativo")) {
+                    document.querySelector(".vertical").classList.add("ativo");
+                }
+                else{
+                    document.querySelector(".vertical").classList.remove("ativo");
+                }
+            }
+        </script>
     </body>
 </html>
