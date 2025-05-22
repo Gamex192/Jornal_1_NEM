@@ -8,8 +8,8 @@
 /* tag styles */
 header{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
     background-color: rgb(34, 34, 231);
     color: white;
     height: 10vh;
@@ -22,14 +22,18 @@ a{
     color: white;
     margin-left: 2vw;
     margin-right: 2vw;
+    margin-bottom: 2vh;
     
     
+}
+li{
+    margin-bottom: 3vh;
 }
 h1{
     padding: 1px;
     margin: auto;
     border: 100px;
-    font-size: 50px;
+    font-size: 2.5rem;
     color: white;
 }
 h2{
@@ -68,8 +72,123 @@ footer{
 .vertical{
     display:none;
 }
+
+.page_selected{
+    padding: 3%;
+    padding-bottom: 3vh;
+    background-color: rgb(24, 24, 172);
+    border-radius: 10% 10% 0% 0%;
+}
+.btnatividade{
+    text-decoration: none;
+    background-color: rgb(34, 34, 231);
+    position: relative;
+    margin-bottom: 1vh;
+}
+
+.atividade{
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: 7vh;
+
+}
+
 /* main */
 
+.saral{
+    display: grid;
+    grid-template-areas:
+    "box1 box2 box2"
+    "box1 box4 box3"
+    "box5 box5 box3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 6vh;
+    height: 100vh;
+}
+.saral > div{
+    padding: 10px;
+    background-color: bisque;
+}
+.saral > div.box1{
+    display: flex;
+    grid-area: box1;
+    background-image: url(imagens/2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+    border-radius: 25px 0 0 0;
+    
+}
+.saral > div.box2{
+    display: flex;
+    grid-area: box2;
+    background-image: url(imagens/pinguim.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+    border-radius: 0 25px 0 0;
+}
+.saral > div.box3{
+    display: flex;
+    grid-area: box3;
+    background-image: url(imagens/2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+    border-radius: 0 0 25px 0;
+}
+.saral >  div.box4{
+    display: flex;
+    grid-area: box4;
+    background-image: url(imagens/2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+}
+.saral > div.box5{
+    display: flex;
+    grid-area: box5;
+    background-image: url(imagens/pinguim.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+    border-radius: 0 0 0 25px;
+}
+
+.saral div p{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.349);
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 2%;
+    font-size: 2rem;
+    text-align: left;
+}
+.saral .box3 p {
+    border-radius: 0 0 25px 0;
+}
+.saral .box5 p {
+    border-radius: 0 0 0 25px;
+}
 .grand-img{
 
     border-radius: 5%;
@@ -102,7 +221,7 @@ footer{
 
 }
 .works{
-    width: 460px;
+    width: 35vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,6 +240,7 @@ footer{
 }
 
 .btn{
+    width: 5vw;
     color: black;
     background-color: rgb(228, 227, 227);
     padding: 42%;
@@ -135,11 +255,12 @@ footer{
     background-color: rgb(117, 117, 117);
 }
 
-@media(max-width: 1000px) {
+@media (max-width: 1200px) and (min-width: 350px) {
     /* navbar */
+    
     header{
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-around;
         align-items: center;
         background-color: rgb(34, 34, 231);
         color: white;
@@ -147,8 +268,8 @@ footer{
         font-size: 25px;
     }
     h1{
-        position: relative;
-        right: 12vw;
+        position: static
+        
     }
 
     li{
@@ -159,15 +280,14 @@ footer{
         background-color: rgb(33, 33, 219);
 
     }
-
     .computer{
         display: none;
     }
 
-      .btnmenu{
-        background-color: rgb(30, 30, 216);
+    .btnmenu{
+        background-color: rgb(34, 34, 231);
         position: relative;
-        margin-right: 5vw;
+        margin-bottom: 2vh;
         
     }
 
@@ -178,8 +298,8 @@ footer{
     
     .menu div{
         position: relative;
-        height: 10px;
-        margin: 10px;
+        height: 0.75vh;
+        margin: 0.75vh;
         width: 7vw;
         background-color: white;
         
@@ -192,7 +312,7 @@ footer{
         justify-content: space-around;
         margin-top: 110.31vh;
         width: 100vw;
-        height: 100vh;
+        height: 120vh;
         flex-direction: column;
         background-color: rgb(34, 34, 231);
         align-items: center;
@@ -204,7 +324,7 @@ footer{
         
     }
     .vertical a{
-        font-size: 80px;
+        font-size: 8vh;
         width: 100vw;
     }
 
@@ -214,7 +334,7 @@ footer{
         display: block;
         justify-content: space-around;
         margin-top: 110.25vh;
-        width: 100vw;
+        width: 100dvw;
         height: 100vh;
         flex-direction: column;
         background-color: rgb(34, 34, 231);
@@ -241,5 +361,23 @@ footer{
         margin-bottom: 5%;
         object-fit: cover;
     }
-   
+   .saral{
+        display: grid;
+        grid-template-areas:
+        "box1 box1"
+        "box2 box2"
+        "box3 box3"
+        "box4 box4"
+        "box5 box5";
+        grid-template-columns: 1fr 3fr;
+        gap: 1vh;
+        margin: 8vh;
+    }
+    .saral .box1.box2.box3.box4.box5{
+        border-radius: 25px;
+    }
+    .saral .box1 .box2 .box3 .box4 .box5 p {
+        border-radius: 25px;
+    }
 }
+
