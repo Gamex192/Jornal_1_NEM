@@ -1,0 +1,515 @@
+/* index */
+.saral{
+    display: grid;
+    grid-template-areas:
+    "box1 box2 box2"
+    "box1 box4 box3"
+    "box5 box5 box3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 6vh;
+    height: 150vh;
+}
+.saral > div{
+    padding: 10px;
+    background-color: bisque;
+}
+.saral > div.box1{
+    display: flex;
+    grid-area: box1;
+    background-image: url(img_index/adrielle.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+    border-radius: 25px 0 0 0;
+    
+}
+.saral > div.box2{
+    display: flex;
+    grid-area: box2;
+    background-image: url(img_index/raimundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position:center center;
+    border: 0;
+    padding: 0;
+    border-radius: 0 25px 0 0;
+}
+.saral > div.box3{
+    display: flex;
+    grid-area: box3;
+    background-image: url(img_index/richard.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+    border-radius: 0 0 25px 0;
+}
+.saral >  div.box4{
+    display: flex;
+    grid-area: box4;
+    background-image: url(img_index/renat_rayra.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+}
+.saral > div.box5{
+    display: flex;
+    grid-area: box5;
+    background-image: url(img_index/musicos.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position: center;
+    border: 0;
+    padding: 0;
+    border-radius: 0 0 0 25px;
+}
+
+.saral div p{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.349);
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 2%;
+    font-size: 2rem;
+    text-align: left;
+}
+.saral .box3 p {
+    border-radius: 0 0 25px 0;
+}
+.saral .box5 p {
+    border-radius: 0 0 0 25px;
+}
+/* n.linguagens */
+/* pintura */
+
+.saral_pintura{
+    display: grid;
+    grid-template-areas:
+    "box6 box6 box5"
+    "box6 box6 box5"
+    "box1 box7 box4"
+    "box1 box7 box4"
+    "box3 box3 box2";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 6vh;
+    height: 150vh;
+}
+.saral_pintura > div{
+    padding: 10px;
+    background-color: bisque;
+}
+.saral_pintura > div.box1{
+    display: flex;
+    grid-area: box1;
+    background-image: url(img_pintura/jeisi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    background-position: center 35%;
+    align-items: end;
+    border: 0;
+    padding: 0;
+    border-radius: 25px 0 0 0;
+    
+}
+.saral_pintura > div.box2{
+    display: flex;
+    grid-area: box2;
+    background-image: url(img_pintura/nicolas.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position:center;
+    border: 0;
+    padding: 0;
+    border-radius: 0 25px 0 0;
+}
+.saral_pintura > div.box3{
+    display: flex;
+    grid-area: box3;
+    background-image: url(img_pintura/rebeca.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position: center;
+    border: 0;
+    padding: 0;
+    border-radius: 0 0 25px 0;
+}
+.saral_pintura >  div.box4{
+    display: flex;
+    grid-area: box4;
+    background-image: url(img_pintura/ana.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position: center;
+    border: 0;
+    padding: 0;
+}
+.saral_pintura > div.box5{
+    display: flex;
+    grid-area: box5;
+    background-image: url(img_pintura/allana.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position: center;
+    border: 0;
+    padding: 0;
+    border-radius: 0 0 0 25px;
+}
+.saral_pintura >  div.box6{
+    display: flex;
+    grid-area: box6;
+    background-image: url(img_pintura/pintores_1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position: center 40%;
+    border-radius: 25px 25px 0 0;
+    border: 0;
+    padding: 0;
+}
+.saral_pintura >  div.box7{
+    display: flex;
+    grid-area: box7;
+    background-image: url(img_pintura/naaty.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position: center 30%;
+    border-radius: 25px 25px 0 0;
+    border: 0;
+    padding: 0;
+}
+.saral_pintura div p{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.349);
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 2%;
+    font-size: 2rem;
+    text-align: left;
+}
+.saral_pintura .box3 p {
+    border-radius: 0 0 25px 0;
+}
+.saral_pintura .box5 p {
+    border-radius: 0 0 0 25px;
+}
+/* poesia */
+
+.saral_poesia{
+    display: grid;
+    grid-template-areas:
+    "box1 box2 box2"
+    "box1 box4 box3"
+    "box5 box5 box3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 6vh;
+    height: 150vh;
+}
+.saral_poesia > div{
+    padding: 10px;
+    background-color: bisque;
+}
+.saral_poesia > div.box1{
+    display: flex;
+    grid-area: box1;
+    background-image: url(img_index/adrielle.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+    border-radius: 25px 0 0 0;
+    
+}
+.saral_poesia > div.box2{
+    display: flex;
+    grid-area: box2;
+    background-image: url(img_poesia/slam.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position: center 40%;
+    border: 0;
+    padding: 0;
+    border-radius: 0 25px 0 0;
+}
+.saral_poesia > div.box3{
+    display: flex;
+    grid-area: box3;
+    background-image: url(img_index/richard.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+    border-radius: 0 0 25px 0;
+}
+.saral_poesia >  div.box4{
+    display: flex;
+    grid-area: box4;
+    background-image: url(img_index/renat_rayra.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+}
+.saral_poesia > div.box5{
+    display: flex;
+    grid-area: box5;
+    background-image: url(img_index/musicos.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position: center;
+    border: 0;
+    padding: 0;
+    border-radius: 0 0 0 25px;
+}
+
+.saral_poesia div p{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.349);
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 2%;
+    font-size: 2rem;
+    text-align: left;
+}
+.saral_poesia .box3 p {
+    border-radius: 0 0 25px 0;
+}
+.saral_poesia .box5 p {
+    border-radius: 0 0 0 25px;
+}
+/* musica */
+
+.saral_musica{
+    display: grid;
+    grid-template-areas:
+    "box1 box2 box2"
+    "box1 box4 box3"
+    "box5 box5 box3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 6vh;
+    height: 150vh;
+}
+.saral_musica > div{
+    padding: 10px;
+    background-color: bisque;
+}
+.saral_musica > div.box1{
+    display: flex;
+    grid-area: box1;
+    background-image: url(img_index/adrielle.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+    border-radius: 25px 0 0 0;
+    
+}
+.saral_musica > div.box2{
+    display: flex;
+    grid-area: box2;
+    background-image: url(img_poesia/slam.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position: center 40%;
+    border: 0;
+    padding: 0;
+    border-radius: 0 25px 0 0;
+}
+.saral_musica > div.box3{
+    display: flex;
+    grid-area: box3;
+    background-image: url(img_index/richard.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+    border-radius: 0 0 25px 0;
+}
+.saral_musica >  div.box4{
+    display: flex;
+    grid-area: box4;
+    background-image: url(img_index/renat_rayra.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+}
+.saral_musica > div.box5{
+    display: flex;
+    grid-area: box5;
+    background-image: url(img_index/musicos.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position: center;
+    border: 0;
+    padding: 0;
+    border-radius: 0 0 0 25px;
+}
+
+.saral_musica div p{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.349);
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 2%;
+    font-size: 2rem;
+    text-align: left;
+}
+.saral_musica .box3 p {
+    border-radius: 0 0 25px 0;
+}
+.saral_musica .box5 p {
+    border-radius: 0 0 0 25px;
+}
+/* teatro */
+
+.saral_teatro{
+    display: grid;
+    grid-template-areas:
+    "box1 box2 box2"
+    "box1 box4 box3"
+    "box5 box5 box3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 6vh;
+    height: 150vh;
+}
+.saral_teatro > div{
+    padding: 10px;
+    background-color: bisque;
+}
+.saral_teatro > div.box1{
+    display: flex;
+    grid-area: box1;
+    background-image: url(img_index/adrielle.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+    border-radius: 25px 0 0 0;
+    
+}
+.saral_teatro > div.box2{
+    display: flex;
+    grid-area: box2;
+    background-image: url(img_poesia/slam.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position: center 40%;
+    border: 0;
+    padding: 0;
+    border-radius: 0 25px 0 0;
+}
+.saral_teatro > div.box3{
+    display: flex;
+    grid-area: box3;
+    background-image: url(img_index/richard.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+    border-radius: 0 0 25px 0;
+}
+.saral_teatro >  div.box4{
+    display: flex;
+    grid-area: box4;
+    background-image: url(img_index/renat_rayra.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    border: 0;
+    padding: 0;
+}
+.saral_teatro > div.box5{
+    display: flex;
+    grid-area: box5;
+    background-image: url(img_index/musicos.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position: center;
+    border: 0;
+    padding: 0;
+    border-radius: 0 0 0 25px;
+}
+
+.saral_teatro div p{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.349);
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 2%;
+    font-size: 2rem;
+    text-align: left;
+}
+.saral_teatro .box3 p {
+    border-radius: 0 0 25px 0;
+}
+.saral_teatro .box5 p {
+    border-radius: 0 0 0 25px;
+}
