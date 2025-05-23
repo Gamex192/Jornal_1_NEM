@@ -126,7 +126,7 @@
     align-items: end;
     border: 0;
     padding: 0;
-    border-radius: 25px 0 0 0;
+
     
 }
 .saral_pintura > div.box2{
@@ -140,7 +140,7 @@
     background-position:center;
     border: 0;
     padding: 0;
-    border-radius: 0 25px 0 0;
+
 }
 .saral_pintura > div.box3{
     display: flex;
@@ -153,7 +153,6 @@
     background-position: center;
     border: 0;
     padding: 0;
-    border-radius: 0 0 25px 0;
 }
 .saral_pintura >  div.box4{
     display: flex;
@@ -178,7 +177,6 @@
     background-position: center;
     border: 0;
     padding: 0;
-    border-radius: 0 0 0 25px;
 }
 .saral_pintura >  div.box6{
     display: flex;
@@ -189,7 +187,6 @@
     justify-content:start;
     align-items: end;
     background-position: center 40%;
-    border-radius: 25px 25px 0 0;
     border: 0;
     padding: 0;
 }
@@ -202,7 +199,6 @@
     justify-content:start;
     align-items: end;
     background-position: center 30%;
-    border-radius: 25px 25px 0 0;
     border: 0;
     padding: 0;
 }
@@ -216,21 +212,15 @@
     font-size: 2rem;
     text-align: left;
 }
-.saral_pintura .box3 p {
-    border-radius: 0 0 25px 0;
-}
-.saral_pintura .box5 p {
-    border-radius: 0 0 0 25px;
-}
 /* poesia */
 
 .saral_poesia{
     display: grid;
     grid-template-areas:
-    "box1 box2 box2"
-    "box1 box4 box3"
-    "box5 box5 box3";
-    grid-template-columns: 1fr 1fr 1fr;
+    "box2 box2"
+    "box1 box3"
+    "box1 box3";
+    grid-template-columns: 1fr 1fr;
     grid-row: 1fr 1fr 1fr;
     gap: 10px;
     margin: 6vh;
@@ -243,15 +233,11 @@
 .saral_poesia > div.box1{
     display: flex;
     grid-area: box1;
-    background-image: url(img_index/adrielle.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
     justify-content:start;
     align-items: end;
     border: 0;
     padding: 0;
-    border-radius: 25px 0 0 0;
-    
+    border-radius: 25px 0 0 0;    
 }
 .saral_poesia > div.box2{
     display: flex;
@@ -264,43 +250,15 @@
     background-position: center 40%;
     border: 0;
     padding: 0;
-    border-radius: 0 25px 0 0;
+
 }
 .saral_poesia > div.box3{
     display: flex;
     grid-area: box3;
-    background-image: url(img_index/richard.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
     justify-content:start;
     align-items: end;
     border: 0;
     padding: 0;
-    border-radius: 0 0 25px 0;
-}
-.saral_poesia >  div.box4{
-    display: flex;
-    grid-area: box4;
-    background-image: url(img_index/renat_rayra.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content:start;
-    align-items: end;
-    border: 0;
-    padding: 0;
-}
-.saral_poesia > div.box5{
-    display: flex;
-    grid-area: box5;
-    background-image: url(img_index/musicos.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content:start;
-    align-items: end;
-    background-position: center;
-    border: 0;
-    padding: 0;
-    border-radius: 0 0 0 25px;
 }
 
 .saral_poesia div p{
@@ -313,20 +271,15 @@
     font-size: 2rem;
     text-align: left;
 }
-.saral_poesia .box3 p {
-    border-radius: 0 0 25px 0;
-}
-.saral_poesia .box5 p {
-    border-radius: 0 0 0 25px;
-}
+
 /* musica */
 
 .saral_musica{
     display: grid;
     grid-template-areas:
-    "box1 box2 box2"
+    "box2 box2 box3"
     "box1 box4 box3"
-    "box5 box5 box3";
+    "box1 box5 box5";
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: 1fr 1fr 1fr;
     gap: 10px;
@@ -340,20 +293,19 @@
 .saral_musica > div.box1{
     display: flex;
     grid-area: box1;
-    background-image: url(img_index/adrielle.jpeg);
+    background-image: url(img_musica/enoque.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content:start;
     align-items: end;
+    background-position: center;
     border: 0;
     padding: 0;
-    border-radius: 25px 0 0 0;
-    
 }
 .saral_musica > div.box2{
     display: flex;
     grid-area: box2;
-    background-image: url(img_poesia/slam.jpeg);
+    background-image: url(img_musica/ensaio.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content:start;
@@ -361,34 +313,22 @@
     background-position: center 40%;
     border: 0;
     padding: 0;
-    border-radius: 0 25px 0 0;
 }
 .saral_musica > div.box3{
     display: flex;
     grid-area: box3;
-    background-image: url(img_index/richard.jpeg);
+    background-image: url(img_musica/luciano.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content:start;
     align-items: end;
+    background-position: center;
     border: 0;
     padding: 0;
-    border-radius: 0 0 25px 0;
 }
 .saral_musica >  div.box4{
     display: flex;
     grid-area: box4;
-    background-image: url(img_index/renat_rayra.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content:start;
-    align-items: end;
-    border: 0;
-    padding: 0;
-}
-.saral_musica > div.box5{
-    display: flex;
-    grid-area: box5;
     background-image: url(img_index/musicos.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -397,7 +337,18 @@
     background-position: center;
     border: 0;
     padding: 0;
-    border-radius: 0 0 0 25px;
+}
+.saral_musica > div.box5{
+    display: flex;
+    grid-area: box5;
+    background-image: url(img_musica/plateia.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position: center;
+    border: 0;
+    padding: 0;
 }
 
 .saral_musica div p{
@@ -410,12 +361,7 @@
     font-size: 2rem;
     text-align: left;
 }
-.saral_musica .box3 p {
-    border-radius: 0 0 25px 0;
-}
-.saral_musica .box5 p {
-    border-radius: 0 0 0 25px;
-}
+
 /* teatro */
 
 .saral_teatro{
@@ -437,20 +383,19 @@
 .saral_teatro > div.box1{
     display: flex;
     grid-area: box1;
-    background-image: url(img_index/adrielle.jpeg);
+    background-image: url(img_teatro/joao.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content:start;
     align-items: end;
     border: 0;
     padding: 0;
-    border-radius: 25px 0 0 0;
     
 }
 .saral_teatro > div.box2{
     display: flex;
     grid-area: box2;
-    background-image: url(img_poesia/slam.jpeg);
+    background-image: url(img_index/raimundo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content:start;
@@ -458,24 +403,24 @@
     background-position: center 40%;
     border: 0;
     padding: 0;
-    border-radius: 0 25px 0 0;
+
 }
 .saral_teatro > div.box3{
     display: flex;
     grid-area: box3;
-    background-image: url(img_index/richard.jpeg);
+    background-image: url(img_teatro/joaorodrigues.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content:start;
     align-items: end;
     border: 0;
     padding: 0;
-    border-radius: 0 0 25px 0;
+
 }
 .saral_teatro >  div.box4{
     display: flex;
     grid-area: box4;
-    background-image: url(img_index/renat_rayra.jpeg);
+    background-image: url(img_teatro/silva.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content:start;
@@ -486,15 +431,14 @@
 .saral_teatro > div.box5{
     display: flex;
     grid-area: box5;
-    background-image: url(img_index/musicos.jpeg);
+    background-image: url(img_teatro/Sem\ título.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content:start;
     align-items: end;
-    background-position: center;
+    background-position: center 30%;
     border: 0;
     padding: 0;
-    border-radius: 0 0 0 25px;
 }
 
 .saral_teatro div p{
@@ -507,9 +451,140 @@
     font-size: 2rem;
     text-align: left;
 }
-.saral_teatro .box3 p {
-    border-radius: 0 0 25px 0;
+/* tecnica */
+
+.saral_tecnica{
+    display: grid;
+    grid-template-areas:
+    "box1"
+    "box2";
+    grid-template-columns: 1fr;
+    grid-row: 1fr 1fr;
+    gap: 10px;
+    margin: 6vh;
+    height: 150vh;
 }
-.saral_teatro .box5 p {
-    border-radius: 0 0 0 25px;
+.saral_tecnica > div{
+    padding: 10px;
+    background-color: bisque;
+}
+.saral_tecnica > div.box1{
+    display: flex;
+    grid-area: box1;
+    background-image: url(img_tecnica/organizacao.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position: center 40%;
+    border: 0;
+    padding: 0;
+
+    
+}
+.saral_tecnica > div.box2{
+    display: flex;
+    grid-area: box2;
+    background-image: url(img_tecnica/TI.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:start;
+    align-items: end;
+    background-position: center start;
+    border: 0;
+    padding: 0;
+}
+.saral_tecnica div p{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.349);
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 2%;
+    font-size: 2rem;
+    text-align: left;
+}
+@media (max-width: 1200px){
+
+    .saral_tecnica{
+        display: grid;
+        grid-template-areas:
+        "box1"
+        "box2";
+        grid-template-columns: 1fr;
+        grid-row: 1fr 1fr;
+        gap: 10px;
+        margin: 6vh;
+        height: 150vh;
+    }
+    .saral_teatro{
+         display: grid;
+         grid-template-areas:
+         "box1"
+         "box2"
+         "box3"
+         "box4"
+         "box5";
+         grid-template-columns: 1fr;
+         grid-row: repeat(5, 1fr);
+         gap: 10px;
+         margin: 6vh;
+         height: 300vh;
+}
+    .saral_musica{
+         display: grid;
+         grid-template-areas:
+         "box1"
+         "box2"
+         "box3"
+         "box4"
+         "box5";
+         grid-template-columns: 1fr;
+         grid-row: repeat(5, 1fr);
+         gap: 10px;
+         margin: 6vh;
+         height: 300vh;
+}
+    .saral_poesia{
+        display: grid;
+        grid-template-areas:
+        "box2"
+        "box1"
+        "box3";
+        grid-template-columns: 1fr;
+        grid-row: repeat(5, 1fr);
+        gap: 10px;
+        margin: 6vh;
+        height: 300vh;
+}
+    .saral_pintura{
+         display: grid;
+         grid-template-areas:
+         "box1"
+         "box2"
+         "box3"
+         "box4"
+         "box5"
+         "box6"
+         "box7";
+         grid-template-columns: 1fr;
+         grid-row: repeat(5, 1fr);
+         gap: 10px;
+         margin: 6vh;
+         height: 500vh;
+}
+    .saral{
+        display: grid;
+        grid-template-areas:
+        "box1"
+        "box2"
+        "box3"
+        "box4"
+        "box5";
+        grid-template-columns: 1fr;
+        grid-row: repeat(5, 1fr);
+        gap: 10px;
+        margin: 6vh;
+        height: 300vh;
+}
 }
